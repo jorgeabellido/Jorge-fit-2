@@ -14,3 +14,25 @@
 .plan-exercise-card .exercise-preview-row span{color:var(--muted);font-size:.9rem}
 .plan-exercise-buttons{display:grid;grid-template-columns:1fr;gap:8px;margin-top:10px}
 .plan-exercise-buttons button{width:100%}
+
+/* Phase 2 AI Coach */
+.coach-cue{margin:12px 0;padding:11px 12px;border-radius:14px;background:rgba(139,92,246,.12);border:1px solid rgba(168,85,247,.28);font-size:.9rem;line-height:1.4}
+.effort-row{display:grid;grid-template-columns:1fr repeat(3,auto);gap:6px;align-items:center;margin:-2px 0 12px;padding-left:38px;font-size:.72rem;color:var(--muted)}
+.effort-row button{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.05);color:inherit;border-radius:999px;padding:6px 8px;font-size:.7rem}
+.effort-row button.selected{background:linear-gradient(135deg,#7c3aed,#ec4899);color:white;border-color:transparent}
+.summary-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+.summary-grid div{padding:18px;border-radius:18px;background:rgba(255,255,255,.06);text-align:center}
+.summary-grid strong{display:block;font-size:1.35rem}.summary-grid span{display:block;color:var(--muted);font-size:.8rem;margin-top:4px}
+.coach-summary{padding:16px;border-radius:18px;background:rgba(139,92,246,.12);border:1px solid rgba(168,85,247,.25);margin-bottom:18px}
+.coach-summary p{margin:8px 0 0;color:var(--text)}
+#coachHistory .history-item{align-items:flex-start}#coachHistory .history-item>span{max-width:58%;text-align:right;white-space:normal}
+@media(max-width:520px){.effort-row{grid-template-columns:1fr 1fr 1fr; padding-left:0}.effort-row span{grid-column:1/-1}.effort-row button{padding:7px 5px}}
+
+/* JorgeFit AI v5 Phase 1 premium layer */
+.premium-banner{display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:center;margin:-8px -8px 20px;padding:10px;border-radius:20px;background:linear-gradient(135deg,rgba(242,56,104,.16),rgba(139,92,246,.18));border:1px solid rgba(255,255,255,.09)}
+.premium-banner img{width:96px;height:72px;object-fit:cover;object-position:left center;border-radius:14px;border:1px solid rgba(255,255,255,.12)}
+.premium-banner span{display:block;color:#ff7fa2;font-size:10px;font-weight:900;letter-spacing:.15em;margin-bottom:5px}.premium-banner strong{font-size:15px;line-height:1.25}.premium-hero{overflow:hidden}
+.exercise-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.exercise-badges span{font-size:10px!important;font-weight:800;color:#dfe5f2!important;background:rgba(255,255,255,.06);border:1px solid var(--border);border-radius:999px;padding:5px 8px}
+.plan-exercise-buttons{display:grid;grid-template-columns:1fr 1.25fr;gap:8px;margin-top:10px}.plan-exercise-buttons .machine-down-btn,.plan-exercise-buttons .how-to-btn{margin-top:0;width:100%}
+.exercise-card{background:linear-gradient(145deg,#151d30,#0f1523);box-shadow:0 12px 30px rgba(0,0,0,.2)}
+@media(max-width:420px){.premium-banner{grid-template-columns:78px 1fr}.premium-banner img{width:78px;height:64px}.plan-exercise-buttons{grid-template-columns:1fr}}
