@@ -1,0 +1,17 @@
+{
+  "Chest":{"image":"assets/muscles/chest.svg","stretch":"Doorway chest stretch","hold":"20–30 sec per side"},
+  "Back":{"image":"assets/muscles/back.svg","stretch":"Child’s pose or lat stretch","hold":"20–30 sec"},
+  "Shoulders":{"image":"assets/muscles/shoulders.svg","stretch":"Cross-body shoulder stretch","hold":"20–30 sec per side"},
+  "Rear delts":{"image":"assets/muscles/shoulders.svg","stretch":"Cross-body rear-delt stretch","hold":"20–30 sec per side"},
+  "Biceps":{"image":"assets/muscles/biceps.svg","stretch":"Wall biceps stretch","hold":"20–30 sec per side"},
+  "Triceps":{"image":"assets/muscles/triceps.svg","stretch":"Overhead triceps stretch","hold":"20–30 sec per side"},
+  "Forearms":{"image":"assets/muscles/forearms.svg","stretch":"Wrist flexor and extensor stretch","hold":"20 sec each"},
+  "Core":{"image":"assets/muscles/core.svg","stretch":"Cobra stretch with gentle breathing","hold":"15–20 sec"},
+  "Legs":{"image":"assets/muscles/quadriceps.svg","stretch":"Standing quad and hamstring stretch","hold":"20–30 sec each"},
+  "Quads":{"image":"assets/muscles/quadriceps.svg","stretch":"Standing quadriceps stretch","hold":"20–30 sec per side"},
+  "Hamstrings":{"image":"assets/muscles/hamstrings.svg","stretch":"Seated hamstring stretch","hold":"20–30 sec per side"},
+  "Glutes":{"image":"assets/muscles/glutes.svg","stretch":"Figure-four glute stretch","hold":"20–30 sec per side"},
+  "Calves":{"image":"assets/muscles/calves.svg","stretch":"Wall calf stretch","hold":"20–30 sec per side"},
+  "Cardio":{"image":"assets/muscles/cardio.svg","stretch":"Full-body cooldown mobility","hold":"3–5 minutes"},
+  "Custom":{"image":"assets/muscles/full-body.svg","stretch":"Gentle full-body stretch","hold":"20–30 sec"}
+}
