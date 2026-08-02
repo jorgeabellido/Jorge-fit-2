@@ -36,3 +36,11 @@
 .plan-exercise-buttons{display:grid;grid-template-columns:1fr 1.25fr;gap:8px;margin-top:10px}.plan-exercise-buttons .machine-down-btn,.plan-exercise-buttons .how-to-btn{margin-top:0;width:100%}
 .exercise-card{background:linear-gradient(145deg,#151d30,#0f1523);box-shadow:0 12px 30px rgba(0,0,0,.2)}
 @media(max-width:420px){.premium-banner{grid-template-columns:78px 1fr}.premium-banner img{width:78px;height:64px}.plan-exercise-buttons{grid-template-columns:1fr}}
+
+
+/* v5.1 Smart Weight Coach */
+.smart-weight-card{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0;padding:14px;border-radius:17px;background:linear-gradient(135deg,rgba(57,217,138,.10),rgba(139,92,246,.12));border:1px solid rgba(57,217,138,.25)}
+.smart-weight-card div{padding:10px;border-radius:13px;background:rgba(4,9,17,.45)}.smart-weight-card span{display:block;color:var(--muted);font-size:.72rem}.smart-weight-card strong{display:block;margin-top:4px;font-size:1.05rem}.smart-weight-card div:nth-child(2) strong{color:#62e7a5}.smart-weight-card p{grid-column:1/-1;margin:0;color:#cbd5e1;font-size:.82rem;line-height:1.45}.use-weight-btn{grid-column:1/-1;border:0;border-radius:12px;padding:11px;background:#39d98a;color:#07140e;font-weight:900}
+.effort-row{grid-template-columns:1fr repeat(4,auto)}
+.exercise-coach-dialog{width:min(96vw,720px)}.exercise-coach-card{padding:18px}.coach-main-image{height:min(42vh,350px);object-position:center}.coach-metrics{display:grid;grid-template-columns:1fr 1fr;gap:10px}.coach-metrics div{background:#0d1320;border:1px solid var(--border);border-radius:15px;padding:14px}.coach-metrics span{display:block;color:var(--muted);font-size:.75rem}.coach-metrics strong{display:block;margin-top:4px;font-size:1.1rem}.coach-metrics div:last-child strong{color:#62e7a5}.guide-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.ai-reason{border-color:rgba(57,217,138,.3);background:rgba(57,217,138,.07)}.guide-secondary{height:auto;max-height:360px;object-fit:cover}.exercise-coach-card .guide-section strong{color:#eef2ff}
+@media(max-width:520px){.effort-row{grid-template-columns:1fr 1fr}.effort-row span{grid-column:1/-1}.smart-weight-card,.guide-grid{grid-template-columns:1fr}.smart-weight-card p,.use-weight-btn{grid-column:1}.coach-main-image{height:250px}.coach-metrics{grid-template-columns:1fr 1fr}}
